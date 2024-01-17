@@ -76,6 +76,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 60px;
 }
 
 .h-icon {
@@ -464,4 +465,26 @@ footer {
 
 #a1{
 margin-top: 50px;
+}
+
+/* why choose er card bg */
+.hotel1{
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+padding: 40px;
+}
+
+.service1{
+  border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 40px;
+}
+
+.price1{
+  border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 40px;
 }
