@@ -389,20 +389,18 @@ h3 {
   width: 100%;
 }
 
-/* footer */
-
 footer {
   font-size: 24px;
   font-weight: 500;
   line-height: 30px;
-
-  background-color:white;
+  background-color: rgb(232, 228, 228); 
   margin-top: 120px;
-  
+  width: 100%; 
+  padding-top: 100px;
+  border-radius: 20px;
 }
 
-/*nicher gulu */
-
+/* nicher gulu */
 .social {
   display: flex;
   justify-content: center;
@@ -424,7 +422,6 @@ footer {
   transform: scale(1.2);
 }
 
-/*Footer part css end*/
 
 .color1 {
   color: #ff5400;
