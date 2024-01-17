@@ -1,0 +1,100 @@
+@media screen and (max-width: 600px) {
+    .d-h2{
+        font-size: 2rem;
+    }
+    .h-2{
+        font-size: 1.2rem;
+    }
+    .bnr-selection ul, .popular-tour, .watch-video {
+        flex-direction: column;
+    }
+    .nav-link ul {
+        display: none;
+        flex-direction: column;
+    }
+    .h-icon2{
+        display: block;
+    }
+    .bnr{
+        padding: 5px;
+    }
+    .bnr-container button, select, .newsletter-content, .why-choose-us-row-2, .location-data, .location-image img, .watch-video .watch-video-vid, .watch-video-content{
+        width: 100%;
+    }
+    .logo-title {
+        font-size: 1.5rem;
+    }
+    .bnr-titile{
+        font-size: 3.5rem;
+    }
+    .details-container{
+        width: 80%;
+    }
+    .why-details{
+        width: 80%;
+    }
+    .row-1{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .row-2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .row-2 .srilanka {
+        grid-column: 1/14;
+    }
+    .row-2 .north-america{
+        grid-column: 1/14;
+    }
+    .row-2 .kasmir{
+        grid-column: 1/14;
+    }
+    .row-2 img{
+        height: 280px;
+    }
+    .row-3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .row-3 img{
+        height: 280px;
+    }
+    .why-row{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .newsletter-img img {
+        width: 100%;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .newsletter-content{
+        padding: 0px;
+    }
+    .footer{
+        width: 90%; 
+    }
+
+.select{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+text-align: center;
+
+}
+
+.h-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+}
